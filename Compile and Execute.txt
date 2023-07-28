@@ -127,7 +127,20 @@ int main()
 
 ==================================================================================================================================================================
 
+* Review
+--------
+	Congratulations! 🙌
 
+	In this lesson, you have learned:
+
+		. Compilation and execution using the terminal.
+
+			g++ hello.cpp -o hello
+			./hello
+
+		. Single line comments can be created using //.
+
+		. Multi-line comments can be created using /* */.
 
 
 
