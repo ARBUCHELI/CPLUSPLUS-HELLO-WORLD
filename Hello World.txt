@@ -91,6 +91,43 @@ int main() {
 
 ==================================================================================================================================================================
 
+* Pattern
+---------
+	We learned how to output a line of text with the following code:
+
+		std::cout << "🚙💨\n";
+
+	It will output:
+
+		🚙💨
+
+	We can also output multiple lines by adding more std::cout statements:
+
+		std::cout << "Hello\n";
+		std::cout << "Goodbye\n";
+
+	This will output:
+
+		Hello
+		Goodbye
+	
+	Now let’s use what we learned so far to complete a coding challenge!
+
+pattern.cpp
+-----------
+#include <iostream>
+
+int main() 
+{
+  
+  std::cout << "       1\n";
+  std::cout << "     2 3\n";
+  std::cout << "   4 5 6\n";
+  std::cout << "7 8 9 10\n";
+}
+
+==================================================================================================================================================================
+
 
 
 
