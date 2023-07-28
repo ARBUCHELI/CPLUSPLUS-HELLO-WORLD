@@ -1,0 +1,85 @@
+# Compile and Execute
+---------------------
+
+* Code → Save → Compile → Execute
+---------------------------------
+	C++ is a compiled language. That means that to get a C++ program to run, you must first translate it from a human-readable form to something a machine can “understand.” That 
+	translation is done by a program called a compiler.
+
+	When you program in C++, you mainly go through 4 phases during development:
+
+		1. Code — writing the program
+
+		2. Save — saving the program
+
+		3. Compile — compiling via the terminal
+
+		4. Execute — executing via the terminal
+
+	And repeat (debug the errors if needed).
+
+	Note: Up until now, we’ve been doing the magic for you; Step 2, 3, and 4 were all done by simply pressing the Run button.
+
+				----------> code (debug) ----------> Save ----------> $ g++ hello.cpp
+				|						      $ ./a.out
+				|							  |	
+				|							  |	
+				|                                                         |
+				-----------------------------------------------------------
+
+===================================================================================================================================================================
+
+* Compile and Execute
+---------------------
+	Compile: A computer can only understand machine code. A compiler can translate the C++ programs that we write into machine code. You call on the compiler by using the terminal, 
+	which is the black panel to the right of the code editor that contains a dollar sign $. To compile a file, you need to type g++ followed by the file name in the terminal and press 
+	enter:
+
+		g++ hello.cpp
+
+	The compiler will then translate the C++ program hello.cpp and create a machine code file called a.out.
+
+	Execute: To execute the new machine code file, all you need to do is type ./ and the machine code file name in the terminal and press enter. In this case, our compiled file name 
+	is a.out. Putting it all together, we end up with the following::
+
+		./a.out
+
+	The executable file will then be loaded to computer memory and the computer’s CPU (Central Processing Unit) executes the program one instruction at a time.
+
+hello.cpp
+---------
+#include <iostream>
+
+int main() 
+{
+  
+  std::cout << "Hello World!\n";
+  
+}
+
+==================================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
